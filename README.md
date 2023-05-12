@@ -10,14 +10,14 @@ A decentralized application for trustable medicine prescriptions. The applicatio
 
 ### Installing
 
-* Run `npm install` in the commandline
+* Run `npm install` in the command line
 
  
 ### Executing program
 
 * Run `npm run node` in the command line
 * Create a new command line window and run `npm run deploy`
-* Create another command lin window  and run `npm run frontend`
+* Create another command line window  and run `npm run frontend`
 * Open the react application through [http://localhost:3000/](http://localhost:3000/)
 
 ## Help
