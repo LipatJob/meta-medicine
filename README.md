@@ -1,8 +1,10 @@
 # Meta Medicine
 
+A decentralized application for trustable medicine prescriptions.
+
 ## Description
 
-A decentralized application for trustable medicine prescriptions. The application allows doctors to create prescriptions in the blockchain. This prescription could be used by pharmacists to verify that the prescription is prescribed for the patient. Additionally, the application allows the patient to see the prescription using the generated prescription code.
+The application allows doctors to create prescriptions in the blockchain. This prescription could be used by pharmacists to verify that the prescription is prescribed for the patient. Additionally, the application allows the patient to see the prescription using the generated prescription code.
 
 ## Getting Started
 
