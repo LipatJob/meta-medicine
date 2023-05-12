@@ -1,71 +1,29 @@
-# Steps to run the codebase 
+# Project Title
 
-$ npm install
-$ npm start
+Meta Medicine
 
-navigate browser to localhost:3000
+## Description
 
------------------------------
-## Tech Stack
+A decentralized application for trustable medicine prescriptions. The application allows doctors to create prescriptions in the blockchain. This prescription could be used by pharmacists to verify that the prescription is prescribed for the patient. Additionally, the application allows the patient to see the prescription using the generated prescription code.
 
-React Js
-Solidity
+## Getting Started
 
-## Available Scripts
+### Installing
 
-In the project directory, you can run:
+* Run `npm install` in the commandline
 
-### `npm start`
+ 
+### Executing program
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Run `npm run node` in the command line
+* Create a new command line window and run `npm run deploy`
+* Create another command lin window  and run `npm run frontend`
+* Open the react application through [http://localhost:3000/](http://localhost:3000/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Help
 
-### `npm run build`
+Please contact the owner of the repository for any issues
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
 
-# Structure of files in the codebase
-
-src Folder -
-    Contracts - 
-        BankApp.sol - You can view the smartcontract used in this code 
-        bank_app_abi.json - The abi file of the smartcontract.
-
-The smart contract is deployed on Test BSC Network.
-
-### Contract Address - 0x59eFE99aA926a79edEA31F7ED3b2661b1F9e2F62
-
-## Flow of smart contract
-
-1.Firstly connect your wallet by clicking on connectwallet button(Make sure you have test BNB in your wallet).
-2.You need to create the account by clicking on createAccount  button
-3.You can check whether your account is listed in the network by clicking on checkAccountExists Button
-4.Next you can deposit the balance into your account by entering the number in the textbox.
-5.You can check the balance in the bank account using Account Balance button.
-6.You can transfer your funds in the bank account to another bank account(Make sure that account is also listed in the network)
-7.You can withdraw funds using Withdraw button.
-
-
-
-## In App.js you can find all these functions
-
-connectWalletHandler - For connecting the metamask wallet
-AccoutChangedHandler - Chainging account from metamask can cause this function to work
-chainChangedHandler - Chainging the chain network in the metamask can cause this function to work
-updateEthers - This function helps in communicating with the abi,deployed smart contract and the provider network of the metamask
-
-### `let tempProvider = new ethers.providers.Web3Provider(window.ethereum);`
-###	`let tempSigner = tempProvider.getSigner();`
-### `let tempContract = new ethers.Contract(contractAddress, simple_token_abi, tempSigner)` - These are the steps for integrating Smartcontract with the Frontend.
-
-createAccount - Creates the Account in the Bank Dapp
-checkAccountExists - Checks if the Account is listed in the Dapp
-AccountBalance - Checks the balance of the account in the Bank
-DepositBalance - For depositing the balance from your metamask wallet account to bank account
-WithdrawBalance - For Withdrawing the balance from your bank account to metamask wallet address 
-TransferHandler -For transferring the funds between accounts in the bank. Make sure both the banks are listed in the network.
-
+Job Lipat
