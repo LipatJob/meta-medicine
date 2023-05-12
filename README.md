@@ -1,6 +1,4 @@
-# Project Title
-
-Meta Medicine
+# Meta Medicine
 
 ## Description
 
